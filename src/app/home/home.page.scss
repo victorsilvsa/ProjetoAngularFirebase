@@ -1,0 +1,17 @@
+.mouse-hover{
+    transition: all 1s;
+}
+.mouse-hover:hover{
+    cursor: pointer;
+    & h2{
+        color: rgb(26, 204, 26);
+        letter-spacing: 1px;
+        transition: all 1s;
+    }
+
+     h3{
+        color:red;
+        letter-spacing: 1px;
+        transition: all 0.5s;
+    }
+}
